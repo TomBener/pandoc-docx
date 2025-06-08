@@ -508,6 +508,7 @@
     </w:pPr>
     <w:rPr>
       <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+      <w:b/>
       <w:sz w:val="56"/>
       <w:szCs w:val="56"/>
     </w:rPr>
@@ -519,6 +520,7 @@
     <w:uiPriority w:val="10"/>
     <w:rPr>
       <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+      <w:b/>
       <w:sz w:val="56"/>
       <w:szCs w:val="56"/>
     </w:rPr>
@@ -536,6 +538,7 @@
       </w:numPr>
     </w:pPr>
     <w:rPr>
+      <w:b w:val="0"/>
       <w:spacing w:val="15"/>
       <w:sz w:val="28"/>
       <w:szCs w:val="28"/>
@@ -547,7 +550,7 @@
     <w:link w:val="Subtitle"/>
     <w:uiPriority w:val="11"/>
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi"/>
+      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
       <w:spacing w:val="15"/>
       <w:sz w:val="28"/>
       <w:szCs w:val="28"/>
@@ -563,6 +566,7 @@
       <w:keepLines/>
     </w:pPr>
     <w:rPr>
+      <w:b w:val="0"/>
       <w:sz w:val="24"/>
       <w:szCs w:val="24"/>
     </w:rPr>
@@ -577,6 +581,7 @@
       <w:keepLines/>
     </w:pPr>
     <w:rPr>
+      <w:b w:val="0"/>
       <w:sz w:val="24"/>
       <w:szCs w:val="24"/>
     </w:rPr>
