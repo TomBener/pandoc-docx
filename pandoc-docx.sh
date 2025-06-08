@@ -60,7 +60,7 @@ do_zip() {
     if [ -f "$DOCX_PATH" ]; then
         file_size=$(ls -lh "$DOCX_PATH" | awk '{print $5}')
         echo -e "${GREEN}Successfully created reference.docx (${file_size})${NC}"
-        open "$DOCX_PATH"
+        # open "$DOCX_PATH"
     else
         echo -e "${RED}Error: Failed to create DOCX file${NC}"
         exit 1
