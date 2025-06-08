@@ -134,6 +134,7 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="FirstParagraph"/>
+        <w:ind w:firstLine="480"/>
       </w:pPr>
       <w:r>
         <w:t>First Paragraph.</w:t>
@@ -142,6 +143,7 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="BodyText"/>
+        <w:ind w:firstLine="480"/>
       </w:pPr>
       <w:r>
         <w:t xml:space="preserve">Body Text. Body Text Char. </w:t>
@@ -176,6 +178,7 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="BlockText"/>
+        <w:ind w:firstLine="480"/>
       </w:pPr>
       <w:r>
         <w:t>Block Text.</w:t>
@@ -211,6 +214,7 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact"/>
+              <w:ind w:firstLine="480"/>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
@@ -224,6 +228,7 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact"/>
+              <w:ind w:firstLine="480"/>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
@@ -239,6 +244,7 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact"/>
+              <w:ind w:firstLine="480"/>
             </w:pPr>
             <w:r>
               <w:t>1</w:t>
@@ -252,6 +258,7 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact"/>
+              <w:ind w:firstLine="480"/>
             </w:pPr>
             <w:r>
               <w:t>2</w:t>
