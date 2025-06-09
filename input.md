@@ -5,23 +5,19 @@ author: Tom Ben
 date: 2025-06-08
 ---
 
-## 概述 (Overview)
+# 概述 (Overview)
 
 This document demonstrates various **Pandoc Markdown** features with both English and Chinese content. 这个文档展示了各种 **Pandoc Markdown** 功能，包含英文和中文内容。
 
----
+# 标题 (Headers)
 
-## 标题 (Headers)
+## 二级标题 (Level 2 Header)
 
-### Level 3 Header 三级标题
+### 三级标题 (Level 3 Header)
 
-#### Level 4 Header 四级标题
+#### 四级标题 (Level 4 Header)
 
-##### Level 5 Header 五级标题
-
-###### Level 6 Header 六级标题
-
-## 文本格式 (Text Formatting)
+# 文本格式 (Text Formatting)
 
 **粗体文本** and **bold text**
 
@@ -33,9 +29,9 @@ This document demonstrates various **Pandoc Markdown** features with both Englis
 
 `内联代码` and `inline code`
 
-## 列表 (Lists)
+# 列表 (Lists)
 
-### 无序列表 (Unordered List)
+## 无序列表 (Unordered List)
 
 - 苹果 (Apple)
 - 香蕉 (Banana)
@@ -43,7 +39,7 @@ This document demonstrates various **Pandoc Markdown** features with both Englis
   - 血橙 (Blood Orange)
   - 脐橙 (Navel Orange)
 
-### 有序列表 (Ordered List)
+## 有序列表 (Ordered List)
 
 1. 第一项 (First item)
 2. 第二项 (Second item)
@@ -51,13 +47,13 @@ This document demonstrates various **Pandoc Markdown** features with both Englis
    1. 子项目 A (Sub-item A)
    2. 子项目 B (Sub-item B)
 
-### 任务列表 (Task List)
+## 任务列表 (Task List)
 
 - [x] 完成的任务 (Completed task)
 - [ ] 待完成的任务 (Pending task)
 - [x] Another completed task
 
-## 链接和图片 (Links and Images)
+# 链接和图片 (Links and Images)
 
 [Google](https://www.google.com) | [百度](https://www.baidu.com)
 
@@ -65,9 +61,7 @@ This document demonstrates various **Pandoc Markdown** features with both Englis
 
 ![The Great Wave off Kanagawa](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/640px-The_Great_Wave_off_Kanagawa.jpg)
 
-https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg
-
-## 引用 (Blockquotes)
+# 引用 (Blockquotes)
 
 > 这是一个引用块。在中文写作中，引用常用来表示他人的观点或重要的信息。
 >
@@ -75,9 +69,9 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19t
 >
 > > 嵌套引用 (Nested quote)
 
-## 代码块 (Code Blocks)
+# 代码块 (Code Blocks)
 
-### Python 示例
+## Python 示例
 
 ```python
 def hello_world():
@@ -88,7 +82,7 @@ def hello_world():
 hello_world()
 ```
 
-### JavaScript 示例
+## JavaScript 示例
 
 ```javascript
 function greet(name) {
@@ -99,7 +93,7 @@ function greet(name) {
 greet("Pandoc");
 ```
 
-## 表格 (Tables)
+# 表格 (Tables)
 
 | 编程语言 | Language | 年份 | Year | 特点 | Features |
 |----------|----------|------|------|------|----------|
@@ -107,15 +101,15 @@ greet("Pandoc");
 | Java     | Java     | 1995 | 1995 | 跨平台 | Cross-platform |
 | JavaScript | JavaScript | 1995 | 1995 | 动态 | Dynamic |
 
-## 数学公式 (Mathematical Equations)
+# 数学公式 (Mathematical Equations)
 
-### 内联数学 (Inline Math)
+## 内联数学 (Inline Math)
 
 勾股定理: $a^2 + b^2 = c^2$
 
 The quadratic formula: $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$
 
-### 块级数学 (Block Math)
+## 块级数学 (Block Math)
 
 $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
@@ -125,7 +119,7 @@ $$
 E = mc^2
 $$
 
-## 脚注 (Footnotes)
+# 脚注 (Footnotes)
 
 这里有一个脚注[^1]，还有另一个脚注[^note2]。
 
@@ -136,7 +130,7 @@ Here's a footnote[^english] and another one[^pandoc].
 [^english]: This is an English footnote.
 [^pandoc]: Pandoc supports many output formats including PDF, HTML, and DOCX.
 
-## 分隔线 (Horizontal Rules)
+# 分隔线 (Horizontal Rules)
 
 ---
 
@@ -144,7 +138,7 @@ Here's a footnote[^english] and another one[^pandoc].
 
 ___
 
-## 特殊字符和转义 (Special Characters and Escaping)
+# 特殊字符和转义 (Special Characters and Escaping)
 
 \*这些星号不会被解释为强调\*
 
@@ -154,7 +148,7 @@ HTML 实体: &copy; &amp; &lt; &gt;
 
 中文标点：，。！？；：""''
 
-## 定义列表 (Definition Lists)
+# 定义列表 (Definition Lists)
 
 Markdown
 :   A lightweight markup language.
@@ -170,7 +164,7 @@ Pandoc
 :   通用文档转换器。
 :   支持多种输入和输出格式。
 
-## 诗歌和换行 (Poetry and Line Breaks)
+# 诗歌和换行 (Poetry and Line Breaks)
 
 | 静夜思
 | 床前明月光，
@@ -184,7 +178,7 @@ Pandoc
 | Pandoc is great,
 | And so are you!
 
-## 总结 (Conclusion)
+# 总结 (Conclusion)
 
 这个文档展示了 Pandoc Markdown 的主要语法特性，包括中英文混合内容。Pandoc 是一个强大的文档转换工具，支持多种输出格式。
 
