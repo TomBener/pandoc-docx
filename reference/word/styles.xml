@@ -273,6 +273,9 @@
     <w:pPr>
       <w:keepNext/>
       <w:keepLines/>
+      <w:tabs>
+        <w:tab w:val="left" w:pos="360"/>
+      </w:tabs>
       <w:spacing w:before="360" w:after="80"/>
       <w:outlineLvl w:val="0"/>
     </w:pPr>
@@ -294,6 +297,9 @@
     <w:pPr>
       <w:keepNext/>
       <w:keepLines/>
+      <w:tabs>
+        <w:tab w:val="left" w:pos="540"/>
+      </w:tabs>
       <w:spacing w:before="160" w:after="80"/>
       <w:outlineLvl w:val="1"/>
     </w:pPr>
@@ -315,6 +321,9 @@
     <w:pPr>
       <w:keepNext/>
       <w:keepLines/>
+      <w:tabs>
+        <w:tab w:val="left" w:pos="480"/>
+      </w:tabs>
       <w:spacing w:before="160" w:after="80"/>
       <w:outlineLvl w:val="2"/>
     </w:pPr>
@@ -336,6 +345,9 @@
     <w:pPr>
       <w:keepNext/>
       <w:keepLines/>
+      <w:tabs>
+        <w:tab w:val="left" w:pos="800"/>
+      </w:tabs>
       <w:spacing w:before="80" w:after="40"/>
       <w:outlineLvl w:val="3"/>
     </w:pPr>
