@@ -200,8 +200,8 @@
         <w:tblCaption w:val="Table caption."/>
       </w:tblPr>
       <w:tblGrid>
-        <w:gridCol w:w="782"/>
-        <w:gridCol w:w="782"/>
+        <w:gridCol w:w="1243"/>
+        <w:gridCol w:w="1243"/>
       </w:tblGrid>
       <w:tr>
         <w:trPr>
