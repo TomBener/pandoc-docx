@@ -1,6 +1,6 @@
 # Custom DOCX Template for Pandoc
 
-Inspired by [pandoc-docx-tools](https://github.com/rnwst/pandoc-docx-tools). Based on the [default DOCX template](https://github.com/jgm/pandoc/tree/main/data/docx) of [Pandoc 3.7.0.2](https://github.com/jgm/pandoc/releases/tag/3.7.0.2).
+Inspired by [pandoc-docx-tools](https://github.com/rnwst/pandoc-docx-tools). Based on the [default DOCX template](https://github.com/jgm/pandoc/tree/main/data/docx) of [Pandoc 3.8](https://github.com/jgm/pandoc/releases/tag/3.8).
 
 ## Usage
 
