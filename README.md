@@ -20,5 +20,5 @@ chmod +x pandoc-docx.sh
 Use the `reference.docx` file as the template:
 
 ```bash
-./pandoc-docx.sh zip && pandoc -o output.docx --reference-doc=reference.docx input.md --number-sections
+./pandoc-docx.sh zip && pandoc -o test.docx --reference-doc=reference.docx test.md --number-sections
 ```

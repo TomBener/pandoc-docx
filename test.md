@@ -59,7 +59,7 @@ This document demonstrates various **Pandoc Markdown** features with both Englis
 
 <https://www.example.com>
 
-![The Great Wave off Kanagawa](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Great_Wave_off_Kanagawa.jpg/640px-The_Great_Wave_off_Kanagawa.jpg)
+![The Great Wave off Kanagawa](https://collectionapi.metmuseum.org/api/collection/v1/iiif/45434/134438/main-image)
 
 # 引用 (Blockquotes)
 
