@@ -789,6 +789,9 @@
     </w:tblPr>
     <w:tblStylePr w:type="firstRow">
       <w:tblPr/>
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
       <w:tcPr>
         <w:tcBorders>
           <w:bottom w:val="single" w:sz="0" w:space="0" w:color="auto"/>
