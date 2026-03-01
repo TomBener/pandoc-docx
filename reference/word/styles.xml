@@ -503,7 +503,6 @@
     <w:qFormat/>
     <w:pPr>
       <w:spacing w:before="36" w:after="36"/>
-      <w:ind w:firstLineChars="0" w:firstLine="0"/>
     </w:pPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="Title">
@@ -786,11 +785,14 @@
         <w:right w:w="108" w:type="dxa"/>
       </w:tblCellMar>
     </w:tblPr>
+    <w:trPr>
+      <w:jc w:val="center"/>
+    </w:trPr>
     <w:tblStylePr w:type="firstRow">
-      <w:tblPr/>
       <w:pPr>
         <w:jc w:val="center"/>
       </w:pPr>
+      <w:tblPr/>
       <w:tcPr>
         <w:tcBorders>
           <w:bottom w:val="single" w:sz="0" w:space="0" w:color="auto"/>
