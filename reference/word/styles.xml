@@ -610,8 +610,6 @@
     </w:pPr>
     <w:rPr>
       <w:b/>
-      <w:sz w:val="20"/>
-      <w:szCs w:val="20"/>
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Abstract">
@@ -624,10 +622,6 @@
       <w:keepLines/>
       <w:spacing w:before="100" w:after="300"/>
     </w:pPr>
-    <w:rPr>
-      <w:sz w:val="20"/>
-      <w:szCs w:val="20"/>
-    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="Bibliography">
     <w:name w:val="Bibliography"/>
