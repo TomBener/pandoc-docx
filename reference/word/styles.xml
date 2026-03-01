@@ -521,7 +521,7 @@
     <w:rPr>
       <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
       <w:b/>
-      <w:sz w:val="56"/>
+      <w:sz w:val="44"/>
       <w:szCs w:val="56"/>
     </w:rPr>
   </w:style>
@@ -533,7 +533,7 @@
     <w:rPr>
       <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
       <w:b/>
-      <w:sz w:val="56"/>
+      <w:sz w:val="44"/>
       <w:szCs w:val="56"/>
     </w:rPr>
   </w:style>
