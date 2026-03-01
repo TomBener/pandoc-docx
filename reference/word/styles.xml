@@ -836,6 +836,9 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ImageCaption">
     <w:name w:val="Image Caption"/>
     <w:basedOn w:val="Caption"/>
+    <w:rPr>
+      <w:i w:val="0"/>
+    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Figure">
     <w:name w:val="Figure"/>
