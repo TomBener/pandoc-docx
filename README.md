@@ -22,3 +22,7 @@ Use the `reference.docx` file as the template:
 ```bash
 ./pandoc-docx.sh zip && pandoc -o test.docx --reference-doc=reference.docx test.md --number-sections
 ```
+
+## Custom OpenXML Template
+
+`custom.openxml` is a Pandoc `--template` for controlling the document body structure. Based on the [official default](https://github.com/jgm/pandoc/blob/main/data/templates/default.openxml), with `affiliation` and `email` metadata fields added after `author`.

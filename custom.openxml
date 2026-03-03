@@ -25,6 +25,22 @@ $for(author)$
       $author$
     </w:p>
 $endfor$
+$for(affiliation)$
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="$author-style-id$" />
+      </w:pPr>
+      $affiliation$
+    </w:p>
+$endfor$
+$if(email)$
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="$author-style-id$" />
+      </w:pPr>
+      $email$
+    </w:p>
+$endif$
 $if(date)$
     <w:p>
       <w:pPr>
