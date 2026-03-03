@@ -40,7 +40,7 @@ do_zip() {
 
     # Create ZIP archive
     cd "$SOURCE_DIR"
-    zip -r -q -X -9 "$ZIP_PATH" .
+    zip -r -q -X -9 "$ZIP_PATH" . --exclude "*.DS_Store"
 
     # Handle media files with no compression if they exist
     if [ -d "word/media" ] && ls word/media/* 1>/dev/null 2>&1; then
