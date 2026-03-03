@@ -25,12 +25,12 @@ $for(author)$
       $author$
     </w:p>
 $endfor$
-$for(affiliation)$
+$for(institute)$
     <w:p>
       <w:pPr>
         <w:pStyle w:val="$author-style-id$" />
       </w:pPr>
-      $affiliation$
+      $institute$
     </w:p>
 $endfor$
 $if(email)$
