@@ -17,6 +17,24 @@ $if(subtitle)$
       $subtitle$
     </w:p>
 $endif$
+$if(docx-authors)$
+$for(docx-authors)$
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="$author-style-id$" />
+      </w:pPr>
+      $docx-authors$
+    </w:p>
+$endfor$
+$for(docx-institutes)$
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="$author-style-id$" />
+      </w:pPr>
+      $docx-institutes$
+    </w:p>
+$endfor$
+$else$
 $for(author)$
     <w:p>
       <w:pPr>
@@ -40,6 +58,7 @@ $if(email)$
       </w:pPr>
       $email$
     </w:p>
+$endif$
 $endif$
 $if(date)$
     <w:p>
