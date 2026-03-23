@@ -34,6 +34,14 @@ $for(docx-institutes)$
       $docx-institutes$
     </w:p>
 $endfor$
+$if(docx-email)$
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="$author-style-id$" />
+      </w:pPr>
+      $docx-email$
+    </w:p>
+$endif$
 $else$
 $for(author)$
     <w:p>
