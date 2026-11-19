@@ -497,6 +497,24 @@
     <w:next w:val="BodyText"/>
     <w:qFormat/>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="CenterAlign">
+    <w:name w:val="Center Align"/>
+    <w:basedOn w:val="BodyText"/>
+    <w:qFormat/>
+    <w:pPr>
+      <w:ind w:firstLineChars="0" w:firstLine="0"/>
+      <w:jc w:val="center"/>
+    </w:pPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="RightAlign">
+    <w:name w:val="Right Align"/>
+    <w:basedOn w:val="BodyText"/>
+    <w:qFormat/>
+    <w:pPr>
+      <w:ind w:firstLineChars="0" w:firstLine="0"/>
+      <w:jc w:val="right"/>
+    </w:pPr>
+  </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Compact">
     <w:name w:val="Compact"/>
     <w:basedOn w:val="BodyText"/>
